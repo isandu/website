@@ -1,12 +1,12 @@
-baseurl = "/"
+baseurl = "https://isandu.github.io/website/"
 publishDir = "docs"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
 theme = "hugo-lithium-theme"
-googleAnalytics = ""
-disqusShortname = ""
-ignoreFiles = ["\\.Rmd$", "_files$", "_cache$"]
+googleAnalytics = "UA-97660311-1"
+disqusShortname = "isandu-1"
+ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
