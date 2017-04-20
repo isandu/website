@@ -3,9 +3,7 @@ publishDir = "docs"
 relativeurls = true
 languageCode = "en-us"
 title = "A Hugo website"
-theme = "hugo-lithium-theme"
-googleAnalytics = "UA-97660311-1"
-disqusShortname = "isandu-1"
+theme = "slim"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]
@@ -14,25 +12,12 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 [[menu.main]]
     name = "About"
     url = "/about/"
-[[menu.main]]
-    name = "GitHub"
-    url = "https://github.com/rstudio/blogdown"
-[[menu.main]]
-    name = "Twitter"
-    url = "https://twitter.com/rstudio"
 
 [params]
-    description = "A website built through Hugo and blogdown."
-
-    # options for highlight.js (version, additional languages, and theme)
-    highlightjsVersion = "9.10.0"
-    highlightCDN = "//cdn.bootcss.com"
-    highlightjsLang = ["r", "yaml"]
-    highlightjsTheme = "github"
-
-    [params.logo]
-    url = "logo.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+  AnalyticsID = "UA-97660311-1"
+  DisqusShortname = "isandu-1"
+  Summary = false  # takes true or false
+  Content = false  # takes true or false
+  # if both are set to true, summary is shown.
+  # FooterMsg = "Copyright Me 2016. Powered by Hugo."
 
