@@ -3,7 +3,9 @@ publishDir = "docs"
 relativeurls = true
 languageCode = "en-us"
 title = "Accounting"
-theme = "slim"
+theme = "hugo-lithium-theme"
+googleAnalytics = "UA-97660311-1"
+disqusShortname = "isandu-1"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]
@@ -14,10 +16,16 @@ ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
     url = "/about/"
 
 [params]
-  AnalyticsID = "UA-97660311-1"
-  DisqusShortname = "isandu-1"
-  Summary = false  # takes true or false
-  Content = false  # takes true or false
-  # if both are set to true, summary is shown.
-  # FooterMsg = "Copyright Me 2016. Powered by Hugo."
+    description = "A website with accounting exercises."
 
+    # options for highlight.js (version, additional languages, and theme)
+    highlightjsVersion = "9.10.0"
+    highlightCDN = "//cdn.bootcss.com"
+    highlightjsLang = ["r", "yaml"]
+    highlightjsTheme = "github"
+
+    [params.logo]
+    url = "logo.png"
+    width = 50
+    height = 50
+    alt = "Logo"
