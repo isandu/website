@@ -2,7 +2,7 @@ baseurl = "https://isandu.github.io/website/"
 publishDir = "docs"
 relativeurls = true
 languageCode = "en-us"
-title = "A Hugo website"
+title = "Accounting"
 theme = "slim"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
