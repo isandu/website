@@ -6,7 +6,7 @@ categories: []
 tags: []
 ---
 
-```{r echo=FALSE}
+```{r ex_sale_ppe, echo=FALSE, message=FALSE, warning=FALSE, results='asis'}
 Accumulated_depreciation <- 319
 #from note on PPE depreciation (note 14)
 Property_plant_and_equipment <- 418
@@ -15,6 +15,15 @@ Gain_on_sale_PPE <- 41
 #from note 8
 Cash_and_cash_equivalents <- Property_plant_and_equipment + Gain_on_sale_PPE - Accumulated_depreciation
 ```
+
+Account       |  A            | L            | E |
+------------- | ------------- | ------------ | - |
+Cash and cash equivalents   |   `Cash_and_cash_equivalents`      |              |   |    
+Cell 3        | Cell 4        |              |   |
+
+
+<!--
+`Cash_and_cash_equivalents`
 
 \begin{center}
 \begin{tabular}{|p{6cm}p{1.5cm}p{0.5cm}p{1.5cm}p{0.5cm}p{1.5cm}|}
@@ -29,4 +38,5 @@ Gain on sale of PPE &&&&& + `Gain_on_sale_PPE`\\
 \hline
 \end{tabular}
 \end{center}
+-->
 
