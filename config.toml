@@ -1,4 +1,4 @@
-baseurl = "https://isandu.github.io/website/"
+baseurl = "/"
 publishDir = "docs"
 relativeurls = true
 languageCode = "en-us"
