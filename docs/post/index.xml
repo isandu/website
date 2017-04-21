@@ -2,21 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Posts on Accounting</title>
-    <link>https://isandu.github.io/website/post/</link>
+    <link>/post/</link>
     <description>Recent content in Posts on Accounting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 20 Apr 2017 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="https://isandu.github.io/website/post/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Exercises</title>
-      <link>https://isandu.github.io/website/2017/04/20/exercises/</link>
+      <link>/2017/04/20/exercises/</link>
       <pubDate>Thu, 20 Apr 2017 00:00:00 +0000</pubDate>
       
-      <guid>https://isandu.github.io/website/2017/04/20/exercises/</guid>
+      <guid>/2017/04/20/exercises/</guid>
       <description>AccountALECash and cash equivalentsCash_and_cash_equivalentsCell 3Cell 4</description>
     </item>
     

@@ -1,3 +1,4 @@
+disqusShortname = "isandu-1"
 baseurl = "https://isandu.github.io/website/"
 publishDir = "docs"
 relativeurls = true
@@ -5,7 +6,6 @@ languageCode = "en-us"
 title = "Accounting"
 theme = "slim"
 googleAnalytics = "UA-97660311-1"
-disqusShortname = "isandu-1"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]
