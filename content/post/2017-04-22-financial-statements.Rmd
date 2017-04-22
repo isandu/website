@@ -1,10 +1,11 @@
 ---
 date: 2017-04-22T09:37:17+02:00
-draft: true
+draft: false
 title: Financial statements
 ---
 
-```{r echo=FALSE, out.width='100%'}
+```{r echo=FALSE, out.width='100%', results='asis'}
+library(knitr)
 knitr::include_graphics('C:/Users/isandu/Documents/Blog/website/static/img/cat.png')
 ```
 
