@@ -7,6 +7,8 @@ title = "Accounting"
 theme = "slim"
 googleAnalytics = "UA-97660311-1"
 canonifyUrls = "true"
+layoutDir = "layouts"
+buildDrafts = false
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]
