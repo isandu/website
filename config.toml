@@ -6,6 +6,7 @@ languageCode = "en-us"
 title = "Accounting"
 theme = "slim"
 googleAnalytics = "UA-97660311-1"
+canonifyUrls = "true"
 ignoreFiles = ["\\.Rmd$", "_files$", "_cache$", "^Thumbs\\.db$"]
 
 [permalinks]

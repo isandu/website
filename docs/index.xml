@@ -2,21 +2,32 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Accounting</title>
-    <link>https://isandu.github.io/website/</link>
+    <link>/</link>
     <description>Recent content on Accounting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 05 May 2016 21:48:51 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 22 Apr 2017 09:37:17 +0200</lastBuildDate>
     
-	<atom:link href="https://isandu.github.io/website/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
+      <title>Financial statements</title>
+      <link>/2017/04/22/financial-statements/</link>
+      <pubDate>Sat, 22 Apr 2017 09:37:17 +0200</pubDate>
+      
+      <guid>/2017/04/22/financial-statements/</guid>
+      <description>Remember:
+Expenses are increased when the owner’s equity decreases (a) because cash OR rights to cash or services decrease or (b) because obligations to offer cash or services increase.
+AstraZeneca Plc is a British-Swedish multinational pharmaceutical company headquartered in London, United Kingdom. AstraZeneca prepares its consolidated financial statements in accordance with IFRS. AstraZeneca, alongside other pharmaceutical companies, is dependent on the success of its Research &amp;amp; Development (R&amp;amp;D) program. The R&amp;amp;D expenses include various costs like fees paid to doctors and participants in clinical trials, the cost of land and buildings used for research or development efforts, legal expenses for protecting patents, hardware to store clinical data.</description>
+    </item>
+    
+    <item>
       <title>About</title>
-      <link>https://isandu.github.io/website/about/</link>
+      <link>/about/</link>
       <pubDate>Thu, 05 May 2016 21:48:51 -0700</pubDate>
       
-      <guid>https://isandu.github.io/website/about/</guid>
+      <guid>/about/</guid>
       <description>This is a website with accounting exercises built with the blogdown package. The theme was forked from @jrutheiser/hugo-lithium-theme and modified by Yihui Xie.</description>
     </item>
     
