@@ -10,7 +10,7 @@ title: Financial statements
 
 **Remember:**
 
-![a cat](img/cat.png)
+![a cat](/static/img/cat.png)
 
 Expenses are increased when the owner's equity decreases (a) because cash OR rights to cash or services decrease or (b) because obligations to offer cash or services increase.
 
