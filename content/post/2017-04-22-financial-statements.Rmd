@@ -5,14 +5,14 @@ title: Financial statements
 ---
 
 ```{r echo=FALSE, out.width='100%', results='asis'}
-library(knitr)
-knitr::include_graphics('C:/Users/isandu/Documents/Blog/website/static/img/cat.png')
+#library(knitr)
+#knitr::include_graphics('C:/Users/isandu/Documents/Blog/website/static/img/cat.png')
 ```
 
 **Remember:**
 
 
-<!-- ![a cat](/static/img/cat.png) -->
+![](/static/img/ER.PNG)
 
 Expenses are increased when the owner's equity decreases (a) because cash OR rights to cash or services decrease or (b) because obligations to offer cash or services increase.
 
