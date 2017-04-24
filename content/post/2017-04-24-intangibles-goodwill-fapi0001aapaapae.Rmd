@@ -28,11 +28,11 @@ Goodwill is an intangible asset with indefinite live that can be impaired.
 
 ***
 
-**Question:**
-Anheuser-Busch InBev reached an agreement in `r year` to buy SABMiller for a purchase price of $`r format(pp, big.mark=",")` billion for SABMiller, making for the biggest beer acquisition on record and one of the largest in corporate history. The fair value of the net identifiable assets of SABMiller before the acquisition was $`r format(fina, big.mark=",")` billion. The net identifiable assets of SABMiller contained identifiable intangible assets (e.g., brand names, trademarks) with a fair value of $`r format(fi, big.mark=",")` billion. The book value of the intangible assets of Anheuser-Busch InBev before the acquisition was $`r format(bi, big.mark=",")` billion.
+Anheuser-Busch InBev reached an agreement in `r year` to buy SABMiller for a purchase price of $`r format(pp, big.mark=",")` billion, making for the biggest beer acquisition on record and one of the largest in corporate history. The fair value of the net identifiable assets of SABMiller before the acquisition was $`r format(fina, big.mark=",")` billion. The net identifiable assets of SABMiller contained identifiable intangible assets (e.g., brand names, trademarks) with a fair value of $`r format(fi, big.mark=",")` billion. The book value of the intangible assets of Anheuser-Busch InBev before the acquisition was $`r format(bi, big.mark=",")` billion.
 
 The questions below refer to Anheuser-Busch InBev.
 
+**Question:**
 What is the book value of the total (consolidated) intangible assets of Anheuser-Busch In-Bev immediately after the acquisition of SABMiller (in billion)?
 
 1. `r ci`
