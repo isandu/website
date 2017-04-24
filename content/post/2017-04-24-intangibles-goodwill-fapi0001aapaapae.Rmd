@@ -1,0 +1,86 @@
+---
+date: 2017-04-24T20:53:16+02:00
+draft: false
+title: intangibles goodwill fapi0001aapaapae
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+year <- 2016
+pp <- sample(100:110,1,replace=T) 
+fina <- sample(90:100,1,replace=T)
+fi <- sample(20:30,1,replace=T)
+bi <- sample(40:50,1,replace=T)
+gi <- pp-fina
+ci <- (pp-fina)+bi+fi
+fibi <- fi + bi
+bigi <- bi + gi
+imp <- sample(2:4,1,replace=T)
+ginew <- gi - imp
+cinew <- ci - imp
+ginewnew <- gi + imp
+```
+
+
+**Remember:**
+Goodwill = Purchase Price - Fair value of identifiable net assets (of seller)
+
+Goodwill is an intangible asset with indefinite live that can be impaired.
+
+***
+
+**Question:**
+Anheuser-Busch InBev reached an agreement in `r year` to buy SABMiller for a purchase price of $`r format(pp, big.mark=",")` billion for SABMiller, making for the biggest beer acquisition on record and one of the largest in corporate history. The fair value of the net identifiable assets of SABMiller before the acquisition was $`r format(fina, big.mark=",")` billion. The net identifiable assets of SABMiller contained identifiable intangible assets (e.g., brand names, trademarks) with a fair value of $`r format(fi, big.mark=",")` billion. The book value of the intangible assets of Anheuser-Busch InBev before the acquisition was $`r format(bi, big.mark=",")` billion.
+
+The questions below refer to Anheuser-Busch InBev.
+
+What is the book value of the total (consolidated) intangible assets of Anheuser-Busch In-Bev immediately after the acquisition of SABMiller (in billion)?
+
+1. `r ci`
+
+2. `r gi`
+
+3.	`r bigi`
+
+4. `r fibi`
+
+***
+
+**Solution:**
+
+`r ci`
+
+*** 
+
+**Question:**
+For only this question assume that in `r year+1` Anheuser-Busch InBev records a goodwill impairment of $`r imp` billion. What is the value of goodwill reported by Anheuser-Busch InBev in `r year+1` if all the other conditions from the initial text of the problem remain the same?
+
+1. `r ginewnew`
+
+2. `r gi`
+
+3.	`r cinew`
+
+4. `r ginew`
+
+***
+
+**Solution:**
+
+`r ginew`
+
+*** 
+
+**Question:**
+For only this question assume that the intangible assets purchased by Anheuser-Busch InBev from SABMiller include a trademark with a fair value of $5 billion. Which of the following conclusions can be drawn about Anheuser-Busch InBev if all the other conditions from the initial text of the problem remain the same?
+
+1. Anheuser-Busch InBev should recognize the trademark as an intangible asset with indefinite life if it wants to report a relatively smooth net profit
+
+2. Anheuser-Busch InBev should impair the trademark if it wants to report a relatively smooth net profit
+
+3. Anheuser-Busch InBev should recognize the trademark as an intangible asset with finite life if it wants to report a relatively smooth net profit
+
+4. Anheuser-Busch InBev should recognize the trademark as a tangible asset if it wants to report a relatively smooth net profit
+
+**Solution:**
+
+Point 3.

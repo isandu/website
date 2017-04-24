@@ -1,0 +1,26 @@
+---
+date: 2017-04-24T19:02:47+02:00
+draft: false
+title: net realizable value situations fai0001ae
+---
+
+**Remember:**
+The Net Realizable Value (NRV) of the inventory is the value for which the inventory can be sold. If the inventory cannot be sold for an amount higher than its cost (i.e., the NRV is lower than the cost of inventory) then the inventory should be reported at the NRV amount instead of its cost.
+
+***
+
+**Question:**
+Which of the points below describes a situation where the Net Realizable Value is higher than the cost of inventory?
+
+1. There is a fall in the selling prices of the inventory
+
+2. The inventory is made out of products that are obsolete and not wanted by customers
+
+3. There is a decrease in the costs of raw materials used in the production of inventory
+
+4. There is an increase in costs to complete or sell the inventory
+
+***
+
+**Solution:**
+Point 3.
