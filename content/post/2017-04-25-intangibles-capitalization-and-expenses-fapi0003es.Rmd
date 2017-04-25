@@ -1,0 +1,43 @@
+---
+date: 2017-04-25T08:57:31+02:00
+draft: false
+title: intangibles capitalization and expenses fapi0003es
+---
+
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+year <- 2014
+rd <- 5997 
+profit <- 2578+50
+balance <- 1183-10
+purch <- 328+20
+amort <- 161+30
+new_profit <- profit + amort - purch
+```
+
+
+**Remember:**
+Expenses are increased when the owner's equity decreases (a) because cash decreases or rights to cash or services (e.g., prepayments, value assets) decrease or (b) because obligations to offer cash or services increase (e.g., unearned revenues).
+
+***
+
+[AstraZeneca Plc](https://drive.google.com/file/d/0B5iOWuUx99FWdjQ4T3FtYUIzQ1U/view?usp=sharing) is a British-Swedish multinational pharmaceutical company headquartered in London, United Kingdom. AstraZeneca prepares its consolidated financial statements in accordance with IFRS. AstraZeneca, alongside other pharmaceutical companies, is dependent on the success of its Research & Development (R&D) program. The R&D expenses include various costs like fees paid to doctors and participants in clinical trials, the cost of land and buildings used for research or development efforts, legal expenses for protecting patents, hardware to store clinical data. 
+
+**Question:**
+Assume that R&D expenditures are paid in cash. Use the financial statements of [AstraZeneca Plc](https://drive.google.com/file/d/0B5iOWuUx99FWdjQ4T3FtYUIzQ1U/view?usp=sharing) to record the journal entry made by AstraZeneca to recognize the R&D expenditures.
+
+***
+
+**Solution:**
+Decrease cash with $`r format(rd, big.mark=",")` and increase Research and Development expenses with $`r format(rd, big.mark=",")`.
+
+***
+
+**Question:**
+Assume that AstraZeneca reported a $`r format(profit, big.mark=",")` million Profit before taxes for the year ended December 31, `r year`. Assume that the company has a policy to capitalize development costs. These capitalized development costs have a balance of $`r format(balance, big.mark=",")` million at January 1, `r year`. During the year the company capitalizes development costs worth $`r format(purch, big.mark=",")` million and the amortization expense for capitalized development costs for `r year` is $`r format(amort, big.mark=",")` million. Now assume that the company would have had from the beginning of its existence a policy to expense all development costs (and not to capitalize them). What would be the profit for the year ended 31 December `r year` if the policy of the company would be to expense all
+development costs instead of capitalizing them?
+
+***
+
+**Solution:**
+$`r format(new_profit, big.mark=",")`

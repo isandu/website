@@ -1,0 +1,40 @@
+---
+date: 2017-04-25T08:23:27+02:00
+draft: false
+title: inventory cogs nrv fai0003as
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+ei <- sample(240000:250000,1,replace=T) 
+cogs <- sample(280000:290000,1,replace=T)
+price <- sample(240000:250000,1,replace=T) 
+sale_cost <- sample(30000:50000,1,replace=T)
+nrv <- price - sale_cost
+difference <- ei - nrv
+other <- cogs - price
+```
+
+
+**Remember:**
+The Net Realizable Value (NRV) of the inventory is the value for which the inventory can be sold. If the inventory cannot be sold for an amount higher than its cost (i.e., the NRV is lower than the cost of inventory) then the inventory should be reported at the NRV amount instead of its cost. 
+
+To record the decrease in the value of the inventory to its NRV the following journal entry is made: increase the cost of goods sold and decrease the inventory.
+
+***
+
+**Question:**
+Company B has an ending inventory (at cost) of $`r format(ei, big.mark=",")` and a cost of goods sold of
+$`r format(cogs, big.mark=",")`. The company estimates that it would be able to sell the inventory for $`r format(price, big.mark=",")` with estimated costs necessary to make the sale of $`r format(sale_cost, big.mark=",")`. What is the net profit after the application of the Lower-of-cost-or-Net-Realizable-Value rule?
+
+1. Lower with $`r format(other, big.mark=",")`
+
+2. Higher with $`r format(difference, big.mark=",")`
+
+3. Lower with $`r format(difference, big.mark=",")`
+
+4. The same as before the application of the Lower-of-cost-or-Net-Realizable-Value rule
+
+***
+
+**Solution:**
+Lower with $`r format(difference, big.mark=",")`

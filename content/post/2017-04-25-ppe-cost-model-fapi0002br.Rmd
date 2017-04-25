@@ -1,0 +1,34 @@
+---
+date: 2017-04-25T07:54:23+02:00
+draft: false
+title: ppe cost model fapi0002br
+---
+
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+cash <- sample(9000:11000,1,replace=T) 
+price <- sample(19000:20000,1,replace=T)
+mk <- sample(20000:22000,1,replace=T) 
+```
+
+
+**Remember:**
+The cost of any asset is the sum of all the costs incurred to bring the asset to its intended use.
+
+***
+
+**Question:**
+Company A paid $`r format(cash, big.mark=",")` cash for equipment used in the business. At the time of purchase the equipment had a list price of $`r format(price, big.mark=",")`. When the balance sheet was prepared, the market value of the equipment was $`r format(mk, big.mark=",")`. Which of the three amounts is the most relevant amount that should be used for measurement subsequent to initial recognition under the cost model?
+
+1. $`r format(cash, big.mark=",")`
+
+2. $`r format(price, big.mark=",")`
+
+3. $`r format(mk, big.mark=",")`
+
+4. $`r format(cash, big.mark=",")` at the day of the purchase, $`r format(mk, big.mark=",")` at the balance sheet date
+
+***
+
+**Solution:**
+$`r format(mk, big.mark=",")`

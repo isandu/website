@@ -15,6 +15,7 @@ gain <- sample(8000:10000,1,replace=T)
 cash_op <- depreciation + amortization - gain
 cash_op
 year <- 2015
+cash_inv <- - (patent + building + gain + (cost - acc_depr))
 ```
 
 
@@ -23,11 +24,24 @@ Cash from the sale of property, plant and equipment is equal to the value of the
 
 In the indirect method the expenses (e.g., depreciation expense) or gains that do not involve cash are added to the net profit to find the cash from operating activities.
 
+Cash flow from investing activities relates to the purchase and sale of property, plant and equipment and intangible assets.
+
 ***
 
+During `r year` Castro Company buys patents for $`r format(patent, big.mark=",")` (paid in cash) and a building for $`r format(building, big.mark=",")` (paid in cash). During `r year` the amortization expense of patents was $`r format(amortization, big.mark=",")` and the depreciation expense of the building was $`r format(depreciation, big.mark=",")`. Also during `r year` equipment with an initial cost of $`r format(cost, big.mark=",")` and an accumulated depreciation of $`r format(acc_depr, big.mark=",")` was sold for a gain of $`r format(gain, big.mark=",")` (cash transaction). Assume a net profit of zero. 
+
 **Question:**
-During `r year` Castro Company buys patents for $`r format(patent, big.mark=",")` (paid in cash) and a building for $`r format(building, big.mark=",")` (paid in cash). During `r year` the amortization expense of patents was $`r format(amortization, big.mark=",")` and the depreciation expense of the building was $`r format(depreciation, big.mark=",")`. Also during `r year` equipment with an initial cost of $`r format(cost, big.mark=",")` and an accumulated depreciation of $`r format(acc_depr, big.mark=",")` was sold for a gain of $`r format(gain, big.mark=",")` (cash transaction). Assume a net profit of zero. What would be the net cash flow from operating activities (through the indirect method)? 
+What would be the net cash flow from operating activities (through the indirect method)? 
 
 ***
 
 **Solution:** $`r format(cash_op, big.mark=",")`
+
+***
+
+**Question:**
+What would be the net cash flow from investing activities?
+
+***
+
+**Solution:** $`r format(cash_inv, big.mark=",")`
