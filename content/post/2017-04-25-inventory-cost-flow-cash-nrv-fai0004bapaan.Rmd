@@ -1,0 +1,60 @@
+---
+date: 2017-04-25T10:15:09+02:00
+draft: false
+title: inventory cost flow cash nrv fai0004bapaan
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+pu1 <- 100
+pp1 <- 10
+pu2 <- 50
+pp2 <- 12
+su1 <- 130
+sp1 <- 15
+cash <- su1*sp1 - (pu1*pp1 + pu2*pp2)
+ei <- ((pu1+pu2) - su1)*pp2
+nrv <- 130
+rev <- su1*sp1
+cogs <- pu1*pp1 + (su1-pu1)*pp2
+imp <- ei - nrv
+pr <- rev - cogs - imp
+```
+
+**Remember:**
+The cost flow assumptions used to find the cost of goods sold and the ending inventory have no connection with the cash received or paid.
+
+The Net Realizable Value (NRV) of the inventory is the value for which the inventory can be sold. If the inventory cannot be sold for an amount higher than its cost (i.e., the NRV is lower than the cost of inventory) then the inventory should be reported at the NRV amount instead of its cost.
+
+To record the decrease in the value of the inventory to its NRV the following journal entry is made: increase the cost of goods sold and decrease the inventory.
+
+***
+
+Company Flowers's inventory records show the following at December 31 (assume a beginning inventory of zero):
+
+Date    |          |     Units     |  Price per unit   |
+------- | -------- | ------------- | ----------------- |
+Dec. 10 | Purchase | `r pu1` units | $`r pp1` per unit |
+Dec. 15 | Purchase | `r pu2` units | $`r pp2` per unit |
+Dec. 23 | Sale     | `r su1` units | $`r sp1` per unit |
+
+It is also known that all purchases and sales of inventory by Company Flowers are done for cash, the company uses the FIFO cost flow method and the Lower-of-Cost-or-Net-Realizable-Value at December 31 is $`r nrv`.
+
+**Question:**
+
+What is the net cash flow recorded by Company Flowers at December 31?
+
+***
+
+**Solution:**
+`r cash`
+
+***
+
+**Question:**
+
+What is the net profit recorded by Company F at December 31?
+
+***
+
+**Solution:**
+`r pr`

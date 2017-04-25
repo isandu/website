@@ -1,0 +1,27 @@
+---
+date: 2017-04-25T09:24:03+02:00
+draft: false
+title: low depreciation expense fapi0004au
+---
+
+**Remember:**
+Depreciation expense = (Carrying amount - Residual value) / Remaining useful life
+
+***
+
+**Question:**
+If a company would want to show a low depreciation expenses in the first year after purchasing property, plant and equipment then it would:
+
+1. Use a low residual value when calculating the depreciation expense under the straight-line method
+
+2. Use a high residual value when calculating the depreciation expense under the straight-line method
+
+3. Use a short useful life when calculating the depreciation expense under the straight-line method
+
+4. Use the double-declining-balance method instead of the straight-line method when cal-
+culating the depreciation expense
+
+***
+
+**Solution:**
+Point 2.

@@ -1,0 +1,46 @@
+---
+date: 2017-04-25T10:50:06+02:00
+draft: false
+title: inventory gross profit margin fai0005bap
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+year <- 2016
+bi <- sample(100000:116000,1,replace=T)
+purch <- sample(600000:700000,1,replace=T)
+sales <- sample(400000:500000,1,replace=T)
+grmg <- 0.3
+cogs <- (1 - grmg)*sales
+ei <- bi + purch - cogs
+cogs
+ei
+```
+
+**Remember:**
+Beginning balance + Increases - Decreases = Ending balance
+
+Gross margin = (Sales - Cost of goods sold) / Sales
+
+***
+
+For Company Glamour it is known that the beginning inventory in January `r year` is $`r format(bi, big.mark=",")`, the net purchases of inventory during January `r year` are $`r format(purch, big.mark=",")`, the net sales revenue during January `r year` is $`r format(sales, big.mark=",")` and the gross profit rate for January `r year` is `r grmg` percent. 
+
+**Question:**
+
+What is the company's estimated cost of goods sold for the month of January?
+
+***
+
+**Solution:**
+$`r format(cogs, big.mark=",")`
+
+***
+
+**Question:**
+
+What is the company's estimated ending inventory for the month of January?
+
+***
+
+**Solution:**
+$`r format(ei, big.mark=",")`

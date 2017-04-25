@@ -1,0 +1,35 @@
+---
+date: 2017-04-25T09:32:48+02:00
+draft: false
+title: revaluation ppe fapi0005au
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+net <- 100000
+cost <- 150000
+acc_depr <- cost - net
+new <- 120000
+ppe_rev <- cost - new
+rev <- -ppe_rev + acc_depr
+```
+
+**Remember:**
+Under the revaluation model an increase or decrease in the value of an asset is first recorded in an equity account (e.g., revaluation adjustment account) under the other comprehensive income section.
+
+***
+
+**Question:**
+Company Carrs revalued a piece of Property, plant and equipment (PPE) from $`r format(net, big.mark=",", scientific=FALSE)` (cost: $`r format(cost, big.mark=",")` less accumulated depreciation of $`r format(acc_depr, big.mark=",")`) to $`r format(new, big.mark=",")` with the following entry: increase the Accumulated depreciation account $`r format(acc_depr, big.mark=",")`, decrease the PPE account $`r format(ppe_rev, big.mark=",")` and increase the Revaluation adjustment account $`r format(rev, big.mark=",")`. The Revaluation adjustment account is:
+
+1. An asset account
+
+2. An equity account
+
+3. A revenue account
+
+4. An expense account
+
+***
+
+**Solution:**
+Point 2.

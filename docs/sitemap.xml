@@ -2,6 +2,21 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>/2017/04/25/intangibles-capitalization-and-expenses-fapi0003es/</loc>
+    <lastmod>2017-04-25T08:57:31+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/04/25/inventory-cogs-nrv-fai0003as/</loc>
+    <lastmod>2017-04-25T08:23:27+02:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>/2017/04/25/ppe-cost-model-fapi0002br/</loc>
+    <lastmod>2017-04-25T07:54:23+02:00</lastmod>
+  </url>
+  
+  <url>
     <loc>/2017/04/24/intangibles-goodwill-fapi0001aapaapae/</loc>
     <lastmod>2017-04-24T20:53:16+02:00</lastmod>
   </url>
@@ -28,7 +43,7 @@
   
   <url>
     <loc>/</loc>
-    <lastmod>2017-04-24T20:53:16+02:00</lastmod>
+    <lastmod>2017-04-25T08:57:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   
@@ -39,7 +54,7 @@
   
   <url>
     <loc>/post/</loc>
-    <lastmod>2017-04-24T20:53:16+02:00</lastmod>
+    <lastmod>2017-04-25T08:57:31+02:00</lastmod>
     <priority>0</priority>
   </url>
   

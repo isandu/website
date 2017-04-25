@@ -1,0 +1,26 @@
+---
+date: 2017-04-25T10:01:13+02:00
+draft: false
+title: impairment sales turnover roa fapi0006aan
+---
+
+**Remember:**
+When recording an impairment the impairment expense account increases and the property, plant and equipment account decreases.
+
+***
+
+**Question:**
+Barrick Gold Corp., the world's largest gold miner by production, took $8.7 billion of write-downs in the second quarter of 2016 and slashed its dividend, in a stark example of the fallout from gold's precipitous price decline. With gold prices down by more than 20%, Barrick joined a host of other miners forced to write down the value of mines acquired. The write-down (write-down is synonym with impairment loss) of $8.7 billion lead to:
+
+1. An increase in the asset turnover (Sales / Average assets)
+
+2. A decrease in RoA (Net profit / Average assets)
+
+3. An increase in net cash from investing activities
+
+4. A decrease in net cash from investing activities
+
+***
+
+**Solution:**
+Point 2.
