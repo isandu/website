@@ -1,0 +1,34 @@
+---
+date: 2017-04-25T11:14:17+02:00
+draft: false
+title: calculate net income fafs0003br
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+year <- 2016
+a1 <- sample(210:230,1,replace=T) 
+a2 <- sample(240:260,1,replace=T) 
+l1 <- sample(40:60,1,replace=T) 
+l2 <- sample(70:80,1,replace=T) 
+div <- sample(110:120,1,replace=T) 
+res <- (a2-l2) - (a1-l1) + div
+```
+
+**Remember:**
+Beginning balance equity + Net income - Dividends +/- changes in other comprehensive income = Ending balance equity
+
+***
+
+**Question:**
+A transportation company balance sheet shows at December 31, `r year` and December 31, `r year-1` the following (in € million):
+
+Account           |   2016   |     2015  |
+----------------- | -------- | --------- |
+Total assets      | `r a2  ` | `r a1`    |
+Total liabilities | `r l2  ` | `r l2`    |
+
+***
+
+**Solution:**
+$`r format(res, big.mark=",")`
+
