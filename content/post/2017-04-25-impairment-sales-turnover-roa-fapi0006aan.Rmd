@@ -10,9 +10,9 @@ When recording an impairment the impairment expense account increases and the pr
 ***
 
 **Question:**
-Barrick Gold Corp., the world's largest gold miner by production, took $8.7 billion of write-downs in the second quarter of 2016 and slashed its dividend, in a stark example of the fallout from gold's precipitous price decline. With gold prices down by more than 20%, Barrick joined a host of other miners forced to write down the value of mines acquired. The write-down (write-down is synonym with impairment loss) of $8.7 billion lead to:
+Barrick Gold Corp., the world's largest gold miner by production, took $8.7 billion of write-downs in the second quarter of 2016 and slashed its dividend, in a stark example of the fallout from gold's precipitous price decline. With gold prices down by more than 20%, Barrick joined a host of other miners forced to write down the value of mines acquired. The write-down (write-down is synonym with impairment loss) of $8.7 billion leads to (ignore depreciation expense effects):
 
-1. An increase in the asset turnover (Sales / Average assets)
+1. A decrease in the asset turnover (Sales / Average assets)
 
 2. A decrease in RoA (Net profit / Average assets)
 

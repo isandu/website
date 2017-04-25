@@ -39,9 +39,7 @@ Question Based on the financil statements of AstraZeneca Plc, what is the cash a
       <pubDate>Tue, 25 Apr 2017 11:14:17 +0200</pubDate>
       
       <guid>/2017/04/25/calculate-net-income-fafs0003br/</guid>
-      <description>Remember: Beginning balance equity + Net income - Dividends +/- changes in other comprehensive income = Ending balance equity
-Question: A transportation company balance sheet shows at December 31, 2016 and December 31, 2015 the following (in € million):
-Account20162015Total assets247218Total liabilities7849During the year ended December 31, 2016, the company paid dividends of €113 million.</description>
+      <description>calculate net income fafs0003brcode{white-space: pre;}pre:not([class]) {background-color: white;}if (window.hljs &amp;&amp; document.readyState &amp;&amp; document.readyState === &#34;complete&#34;) {window.setTimeout(function() {hljs.initHighlighting();}, 0);}h1 {font-size: 34px;}h1.title {font-size: 38px;}h2 {font-size: 30px;}h3 {font-size: 24px;}h4 {font-size: 18px;}h5 {font-size: 16px;}h6 {font-size: 12px;}.</description>
     </item>
     
     <item>
@@ -52,7 +50,7 @@ Question: A transportation company balance sheet shows at December 31, 2016 and 
       <guid>/2017/04/25/inventory-gross-profit-margin-fai0005bap/</guid>
       <description>Remember: Beginning balance + Increases - Decreases = Ending balance
 Gross margin = (Sales - Cost of goods sold) / Sales
-For Company Glamour it is known that the beginning inventory in January 2016 is $106,258, the net purchases of inventory during January 2016 are $619,329, the net sales revenue during January 2016 is $499,198 and the gross profit rate for January 2016 is 0.3 percent.
+For Company Glamour it is known that the beginning inventory in January 2016 is $105,968, the net purchases of inventory during January 2016 are $671,708, the net sales revenue during January 2016 is $471,664 and the gross profit rate for January 2016 is 30 percent.
 Question:
 What is the company’s estimated cost of goods sold for the month of January?</description>
     </item>
