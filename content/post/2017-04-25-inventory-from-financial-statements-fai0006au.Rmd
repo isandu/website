@@ -4,7 +4,7 @@ draft: false
 title: inventory from financial statements fai0006au
 ---
 
-*Remember:**
+**Remember:**
 Beginning Balance + Increases – Decreases = Ending Balance
 
 ***

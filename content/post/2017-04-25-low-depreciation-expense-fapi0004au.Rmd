@@ -5,7 +5,7 @@ title: low depreciation expense fapi0004au
 ---
 
 **Remember:**
-Depreciation expense = (Carrying amount - Residual value) / Remaining useful life
+Depreciation expense (straight-line method) = (Carrying amount - Residual value) / Remaining useful life
 
 ***
 

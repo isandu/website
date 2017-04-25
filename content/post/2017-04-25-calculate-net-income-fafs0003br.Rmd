@@ -25,9 +25,12 @@ A transportation company balance sheet shows at December 31, `r year` and Decemb
 Account           |   2016   |     2015  |
 ----------------- | -------- | --------- |
 Total assets      | `r a2  ` | `r a1`    |
-Total liabilities | `r l2  ` | `r l2`    |
+Total liabilities | `r l2  ` | `r l1`    |
 
 ***
+
+During the year ended December 31, 2016, the company paid dividends of €`r div` million. There are no other changes in equity or other comprehensive income. What is the net income during the year ended December 31, `r year` (in € million)?
+
 
 **Solution:**
 $`r format(res, big.mark=",")`

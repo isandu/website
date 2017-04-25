@@ -1,6 +1,5 @@
 ---
 date: 2017-04-25T07:54:23+02:00
-draft: false
 title: ppe cost model fapi0002br
 ---
 
@@ -31,4 +30,4 @@ Company A paid $`r format(cash, big.mark=",")` cash for equipment used in the bu
 ***
 
 **Solution:**
-$`r format(mk, big.mark=",")`
+Point 1.

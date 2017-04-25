@@ -4,7 +4,7 @@ draft: false
 title: use cash flows statement fafs0004au
 ---
 
-*Remember:**
+**Remember:**
 The cash flow statement, the investing activities section, is used to see the cash paid for purchases of property, plant and equipment. 
 
 The depreciation, amortization and impairment expense can be usually seen in the cash flow statement, the operating activities section. The depreciation expense decreases the profit.

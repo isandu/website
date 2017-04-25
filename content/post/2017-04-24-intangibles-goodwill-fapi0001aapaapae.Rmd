@@ -24,7 +24,7 @@ ginewnew <- gi + imp
 **Remember:**
 Goodwill = Purchase Price - Fair value of identifiable net assets (of seller)
 
-Goodwill is an intangible asset with indefinite live that can be impaired.
+Goodwill is an intangible asset with indefinite life that can be impaired.
 
 ***
 

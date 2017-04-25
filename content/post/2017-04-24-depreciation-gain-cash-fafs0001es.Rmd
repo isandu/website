@@ -20,9 +20,9 @@ cash_inv <- - (patent + building + gain + (cost - acc_depr))
 
 
 **Remember:**
-Cash from the sale of property, plant and equipment is equal to the value of the asset (net of amortization or depreciation) plus/minus the gain/loss. 
+Cash (proceeds) from sale of property, plant and equipment = Value of the asset (net of amortization or depreciation) +/- Gain/Loss on sale. 
 
-In the indirect method the expenses (e.g., depreciation expense) or gains that do not involve cash are added to the net profit to find the cash from operating activities.
+In the indirect method of building the cash flow statement, the non-cash expenses (e.g., depreciation expense) or gains are added to the net profit to find the cash from operating activities.
 
 Cash flow from investing activities relates to the purchase and sale of property, plant and equipment and intangible assets.
 

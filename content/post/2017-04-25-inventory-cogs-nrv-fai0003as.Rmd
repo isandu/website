@@ -16,7 +16,7 @@ other <- cogs - price
 
 
 **Remember:**
-The Net Realizable Value (NRV) of the inventory is the value for which the inventory can be sold. If the inventory cannot be sold for an amount higher than its cost (i.e., the NRV is lower than the cost of inventory) then the inventory should be reported at the NRV amount instead of its cost. 
+The Net Realizable Value (NRV) of inventory is the value for which the inventory can be sold. If the inventory cannot be sold for an amount higher than its cost (i.e., the NRV is lower than the cost of inventory) then the inventory should be reported at the NRV amount instead of its cost. 
 
 To record the decrease in the value of the inventory to its NRV the following journal entry is made: increase the cost of goods sold and decrease the inventory.
 

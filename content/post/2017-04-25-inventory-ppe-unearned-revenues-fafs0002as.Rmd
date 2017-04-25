@@ -5,11 +5,11 @@ title: inventory ppe unearned revenues fafs0002as
 ---
 
 **Remember:**
-Discounts decrease the cost of purchasing inventory and hence, decrease the cost of goods sold.
+Discounts decrease the cost of purchased inventory and hence, decrease the cost of goods sold.
 
 Capitalizing expenses means placing costs on the balance sheet and not in the income statement.
 
-Recording unearned revenues means that revenues will be recorded at a later point.
+Recording unearned revenues means that revenues (in the income statement) will be recorded at a later point.
 
 Impairment expenses decrease the profit.
 
