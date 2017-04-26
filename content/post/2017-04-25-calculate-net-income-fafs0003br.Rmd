@@ -34,4 +34,3 @@ During the year ended December 31, 2016, the company paid dividends of €`r div
 
 **Solution:**
 $`r format(res, big.mark=",")`
-
