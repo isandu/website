@@ -5,17 +5,18 @@ title: depreciation gain cash fafs0001es
 ---
 
 ```{r echo=FALSE, error=FALSE, results='hide'}
-patent <- sample(9000:11000,1,replace=T) 
-building <- sample(80000:100000,1,replace=T) 
-amortization <- sample(400:700,1,replace=T) 
-depreciation <- sample(4000:5000,1,replace=T)
-cost <- sample(40000:60000,1,replace=T) 
-acc_depr <- sample(20000:30000,1,replace=T) 
-gain <- sample(8000:10000,1,replace=T) 
+patent <- 10730 
+building <- 90188 
+amortization <- 668 
+depreciation <- 4564
+cost <- 55110
+acc_depr <- 26509
+gain <- 9518
 cash_op <- depreciation + amortization - gain
 cash_op
 year <- 2015
-cash_inv <- - (patent + building + gain + (cost - acc_depr))
+cash_inv <- (-patent - building) + (gain + (cost - acc_depr))
+cash_inv
 ```
 
 
