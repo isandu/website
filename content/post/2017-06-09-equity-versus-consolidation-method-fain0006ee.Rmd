@@ -1,0 +1,52 @@
+---
+date: 2017-06-09T18:51:58+02:00
+draft: false
+title: equity versus consolidation method fain0006ee
+---
+
+
+**Remember:**
+
+Under the equity method the investment account is affected by the proportional changes in the investee's net assets (net assets is that same as assets minus liabilities so net assets is another name for equity).
+
+The consolidation method requires the following steps: 
+
+1. Eliminate the investment account of the parent and eliminate the total equity of the subsidiary
+
+2. Add the assets of the parent with the assets of the subsidiary
+
+3. Add the liabilities of the parent with the assets of the subsidiary
+
+4. The equity of the consolidated balance sheet will always show only the equity of the parent. 
+
+***
+
+**Question:**
+Company P holds an interest of 50% in company S and is wondering whether to use the equity method or the consolidation method to account for the investment in company S. Total assets of Company P are €55 million (out of which the Investment in S is €5 million); total liabilities of Company P are €20 million. Company S has total assets of €60 million and total liabilities of €50 million. The net income of company P is €10 million and the net income of company S is €5 million. Company P expects:
+
+1. A higher ROA if it consolidates company S 
+
+2. A lower ROA if it uses the equity method to account for company S
+
+3. A higher debt ratio if it consolidates company S
+
+4. A higher debt ratio if it uses the equity method to account for company S       
+
+**Solution**
+
+1. A higher ROA if it consolidates company S 
+
+No. To calculate ROA for a consolidated company take only the net income attributable to shareholders into account. Under the consolidated method the net income attributable to shareholders is the same as the net income under the equity method. So the net income used in the calculation of ROA is the same under the equity method and under the consolidated method: €10. The total assets are higher under the consolidated method compared to the equity method because the consolidated assets include the assets of the parent and those of the subsidiary whereas the assets under the equity method include only the assets of the parent. So ROA will always be lower under the consolidate method.   
+
+2. A lower ROA if it uses the equity method to account for company S
+
+No. ROA is higher under the equity method and lower under the consolidated method. 
+
+3. A higher debt ratio if it consolidates company S
+
+Yes. Under the equity method the debt ratio is 20/55 while under the consolidated method the debt ratio is 70/110 so the debt ratio is higher under the consolidated method.
+
+4. A higher debt ratio if it uses the equity method to account for company S 
+
+No. In this case the debt ratio under the consolidated method is lower for the equity method.
+

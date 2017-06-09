@@ -1,0 +1,39 @@
+---
+date: 2017-06-09T18:42:01+02:00
+draft: false
+title: investment balance fain0005aap
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+cost <- 420000
+percent <- 40
+ni <- 50000
+div <- 15000
+fv <- 450000
+end_bal <- cost + (percent/100)*ni - (percent/100)*div
+end_bal
+```
+
+
+
+**Remember:**
+
+Under the equity method the investment account is affected by the proportional changes in the investee's net assets (net assets is that same as assets minus liabilities so net assets is another name for equity).
+
+***
+
+**Question:**
+Forecast Financials B.V. pays €`r format(cost, big.mark=",")` to buy `r format(percent, big.mark=",")`% of the ordinary shares of a Index Finance B.V. During the accounting period Index Finance B.V. Reports an net income of €`r format(ni, big.mark=",")`, declares and pays a cash dividend of €`r format(div, big.mark=",")`. On the balance-sheet date, the market value of Forecast Financial’s investments in Index Finance shares was €`r format(fv, big.mark=",")`.
+
+What is the carrying amount of Forecast Financials’s investment (accounted for at the equity method) reported on the balance sheet at the end of the period?
+
+1. €`r format(fv, big.mark=",")`
+2. €`r format(end_bal - (percent/100)*div, big.mark=",")`
+3. €`r format(end_bal + 10000, big.mark=",")`
+4. €`r format(end_bal, big.mark=",")`
+
+**Solution**
+
+Ending balance investment = cost + (percent/100) * net income - (percent/100) * dividends
+
+€`r format(end_bal, big.mark=",")`
