@@ -9,15 +9,19 @@ A company that invests in the shares of other companies (i.e., an investor) can 
 
 Changes in fair values only matter under the fair value method. Changes in the fair value of treasury shares create an **Unrealized Gain (or Loss)** that affects directly the income statement. Changes in the fair value of available-for-sales securities create an **Unrealized Gain (or Loss)** that is recorded directly in the "Accumulated Other Comprehensive Income OCI - Reserves" section of the Equity.
 
-Under the equity method the investment account is affected by the proportional changes in the investee's net assets (net assets is that same as assets minus liabilites so net assets is another name for equity).
+Under the equity method the investment account is affected by the proportional changes in the investee's net assets (net assets is that same as assets minus liabilities so net assets is another name for equity).
 
 ***
 
 **Question:**
 Available-for-sale investments are accounted for at:
+
 1. Fair value; with changes in fair values through the income statement (OCI)
+
 2. Fair value; with changes in fair values through other comprehensive income
+
 3. Amortized cost 
+
 4. Cost with adjustments for post-acquisition changes in the investor’s share of net assets of the investee
 
 
