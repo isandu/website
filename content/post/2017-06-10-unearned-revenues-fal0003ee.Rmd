@@ -1,0 +1,43 @@
+---
+date: 2017-06-10T12:04:35+02:00
+draft: false
+title: unearned revenues fal0003ee
+---
+
+**Remember:**
+
+A company records unearned revenues (a liability) when it receives cash for services or goods that will be deliver in the future. Revenues are only recorded for services or goods delivered.
+
+***
+
+**Question:**
+
+A software company is transitioning from a traditional one-time software sale model to a subscription-based model. Revenue from subscriptions is recognized over the duration of the subscription as opposed to one-time software sale, where revenue is recognized at the time of the sale. What would be the effect of the transition from a one-time software sale model to a subscription-based model after the transition? Assume that both under the one-time software sale model and under the subscription-based model sales are made for cash.
+
+1. The net cash flow of the company would decrease
+
+2. The gross margin would increases 
+
+3. The debt ratio would increase (assume total liabilities lower than total assets)
+
+4. The cash from operating activities would decrease 
+
+***
+
+**Solution**
+
+1. The net cash flow of the company would decrease
+
+No. Although the transition might involve an impact on sales this impact cannot be recognized in accounting due to its uncertain nature. There is no indication in the text of the problem that woul imply a change in cash flow after the transition. 
+
+2. The gross margin would increases 
+
+No. The gross margin calculated as net income divided by sales would decrease under the subscription-model because the company would record an increase in cash and an increase in unearned revenue (liability) under the subscription-model. It is implicitly assumed that net income is lower than sales.
+
+3. The debt ratio would increase (assume total liabilities lower than total assets)
+
+Yes. Debt ratio calculated as total liabilities / total assets would increase because the company would record an increase in cash and an increase in unearned revenue (liability) under the subscription-model and because total liabilities are lower than total assets.  
+
+4. The cash from operating activities would decrease 
+
+No. There is no direct, immediate effect on cash.

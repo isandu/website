@@ -1,0 +1,47 @@
+---
+date: 2017-06-10T11:55:00+02:00
+draft: false
+title: provision settlement fal0002ee
+---
+
+**Remember:**
+
+Companies recognize a provision (liability) when an obligation to perform future services or payments arises. Although the amount or the timing of the obligation are not certain, provisions are recognized in the balance sheet as liabilities if the obligation is likely to occur and the liability amount can be estimated reliably (usually based on historical data or past experience).
+
+When provisions are settled, the liability decreases. 
+
+Provisions can be classified as both short-term liabilities or long-term liabilities.
+
+***
+
+**Question:**
+
+In April 2016 the car manufacturer Volkswagen (VW) and the U.S. government reached an agreement over how VW will compensate American customers affected by the ongoing diesel emission scandal. German newspaper Die Welt reported that VW will pay affected U.S. customers \$5,000 each. A payout of \$5,000 per affected car would mean an estimated total cost of \$3 billion for VW. Assume that previous to the payment VW recognized a provision (classified as long-term) in its 2015 financial statements. Which of the following is correct:
+
+1. The current ratio decreases
+
+2. The debt ratio increases (assume total liabilities lower than total assets)
+
+3. The cash flow from investing activities decreases
+
+4. The cash flow from financing activities decreases
+
+***
+
+**Solution**
+
+1. The current ratio decreases
+
+Yes. The settlement of the provision (e.g., through payments to customers) leads to a reduction in cash and a reduction in long-term liabilities. The current ratio calculated as current assets / current liabilities decreases.
+
+2. The debt ratio increases (assume total liabilities lower than total assets)
+
+No. The debt ratio calculated as total liabilities / total assets decreases because total liabilities are lower than total assets.
+
+3. The cash flow from investing activities decreases
+
+No. The cash outflow for the payment is seen as cash flow from operating activities. 
+
+4. The cash flow from financing activities decreases
+
+No. The cash outflow for the payment is seen as cash flow from operating activities. 

@@ -1,0 +1,45 @@
+---
+date: 2017-06-10T11:21:29+02:00
+draft: false
+title: provisions fal0001bu
+---
+
+**Remember:**
+
+Companies recognize a provision (liability) when an obligation to perform future services or payments arises. Although the amount or the timing of the obligation are not certain, provisions are recognized in the balance sheet as liabilities if the obligation is likely to occur and the liability amount can be estimated reliably (usually based on historical data or past experience).
+
+Contingent liabilities are reported with an amount in the notes to the financial statements but they are not recognized as liabilities in the balance sheet because there is too much uncertainty as to whether there will be an obligation, when will the obligation happen or the amount of the obligation. 
+
+***
+
+**Question:**
+
+A manufacturer sells products to its customers. Under the terms of the contract for sale, the manufacturer undertakes to make good, by repair or replacement, manufacturing defects that become apparent within three years from the date of sale. On past experience, it is probable (i.e., more likely than not) that some customers might require repairs to the purchased products. Should the entity:
+
+1. Recognize a contingent liability in the balance sheet
+
+2. Recognize a provision in the balance sheet
+
+3. Report a provision in the notes to the financial statements
+
+4. Report a contingent liability in the notes to the financial statements
+
+***
+
+**Solution**
+
+1. Recognize a contingent liability in the balance sheet
+
+No. Contingent liabilities are not recognized in the balance sheet.
+
+2. Recognize a provision in the balance sheet
+
+Yes. The amount of the obligation can be reliably estimated based on past experience.
+
+3. Report a provision in the notes to the financial statements
+
+No. Provisions are recognized as liabilities in the balance sheet.
+
+4. Report a contingent liability in the notes to the financial statements
+
+No. The amount of the obligation can be reliable estimated based on past experience, hence a provision is recognized in the balance sheet.
