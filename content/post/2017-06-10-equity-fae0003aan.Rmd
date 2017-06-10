@@ -1,0 +1,71 @@
+---
+date: 2017-06-10T16:43:30+02:00
+draft: false
+title: equity fae0003aan
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+options(scipen = 999)
+par <- 0.002
+shares <- 200000000
+share_capital <- par * shares
+additional <- 84000000
+re_bb <- 250000000
+ni <- 446000000
+issue <- 8000000
+mk <- 8
+purch <- 2000000
+purch_ts <- 16000000
+payment_div <- 31000000
+share_div <- 10
+share_div_amount <- ((share_div/100)*(shares + issue - purch)*mk)
+share_div_amount
+re_eb <- re_bb + ni - payment_div - share_div_amount
+equity <- share_capital + additional + re_eb - purch_ts + issue * mk + share_div_amount
+```
+
+**Remember:**
+
+Beginning balance retained earnings + Net income - Dividends = Ending balance retained earnings
+
+Equity = Shares capital + Additional paid-in capital + Retained Earnings - Treasury shares
+
+
+***
+
+**Question**
+
+The following information is available at December 2015, in millions:
+
+Ordinary share capital $`r par` par value, `r format(shares, big.mark=",")` shares issued
+
+Additional paid-in capital: $`r format(additional, big.mark=",")`
+
+Retained earnings: $`r format(re_bb, big.mark=",")`
+
+During 2016 the following were recorded:
+
+Net income: $`r format(ni, big.mark=",")` 
+
+Issuance of `r format(issue, big.mark=",")` ordinary shares for a market value of $`r mk` per share
+
+Purchase of `r format(purch, big.mark=",")` treasury shares for $`r format(purch_ts, big.mark=",")`
+
+Payment of cash dividend of $`r format(payment_div , big.mark=",")`
+
+Distribution of `r share_div` share dividend 
+
+Use the same market value per share for all transactions.
+
+What is the Retained earnings at the end of 2016? What is the total Equity?
+
+
+***
+
+**Solution**
+
+Retained earnings ending balance = `r format(re_bb, big.mark=",")` + `r format(ni, big.mark=",")` - `r format(payment_div, big.mark=",")` - `r share_div` \% $\times$ (`r format(shares, big.mark=",")` + `r format(issue, big.mark=",")` - `r format(purch, big.mark=",")` $\times$ `r mk`) = `r format(re_eb, big.mark=",")`
+
+Equity ending balance = `r format(share_capital, big.mark=",")` + `r format(additional, big.mark=",")` + `r format(re_eb, big.mark=",")` - `r format(purch_ts, big.mark=",")` + `r format(issue*mk, big.mark=",")` + `r format(share_div_amount, big.mark=",")` = `r format(equity, big.mark=",")`
+
+

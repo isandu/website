@@ -1,0 +1,32 @@
+---
+date: 2017-06-10T16:20:32+02:00
+draft: false
+title: cash flow financing fae0002as
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+ltd <- 17060
+shares <- 8500
+borrow <- 6580
+div <- 230
+int <- 1439
+op <- 4884
+cf <- -ltd + shares + borrow - div
+```
+
+**Remember:**
+
+Purchases or sales for cash of long term debt or shares and payments in cash of dividends are classified as cash flows from financing activities. 
+
+
+***
+
+**Question**
+
+The following information is available: (1) payment of long-term debt `r format(ltd, big.mark=",")`, (2) proceeds from issuance of ordinary shares `r format(shares, big.mark=",")`, (3) proceeds from borrowing `r format(borrow, big.mark=",")`, (4) dividend paid `r format(div, big.mark=",")`, (5) interest expense `r format(int, big.mark=",")`, (6) operating income `r format(op, big.mark=",")`. What will the statement of cash flows show (use the direct method).
+
+***
+
+**Solution**
+
+(1) + (2) + (3) + (4) = `r format(cf, big.mark=",")`

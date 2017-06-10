@@ -1,0 +1,28 @@
+---
+date: 2017-06-10T16:09:37+02:00
+draft: false
+title: treasury share fae0001ae
+---
+
+**Remember:**
+
+Treasury shares are shares that a company buys back from the market and records them as a decrease in equity.
+
+Outstanding shares = issued shares - treasury shares
+
+***
+
+**Question**
+
+Which from below is not correct:
+
+1. Companies acquire treasury shares to avoid a takeover by an outside party
+2. Companies acquire treasury shares to increase the earnings per share
+3. Companies acquire treasury shares for employee share option compensation
+4. Companies acquire treasury shares to increase dividends to itself
+
+***
+
+**Solution**
+
+Point 4.

@@ -1,0 +1,107 @@
+---
+date: 2017-06-10T14:42:56+02:00
+draft: false
+title: bonds fal0004aap
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+par <- 100000
+coupon_rate <- 4
+i <- 5
+id <- 2.47
+n <- 2
+t <- 3
+coupon <- ((coupon_rate/2)/100) * par
+proc <- (par * (1+(id/100))^(-n*t)) + (coupon * ((1-((1+(id/100))^(-n*t)))/(id/100)))
+int_exp_1 <- (id/100) * proc
+```
+
+
+**Remember:**
+
+The following concepts are relevant for bonds:
+
+par value is the amount expected to be paid at maturity
+
+c\% is the annual coupon rate or the stated rate or the nominal rate
+
+i\% is the annual effective interest rate
+
+id\% is the effective discount rate used if the payments of coupon are more frequent than one year
+
+n represents the number of compounded periods per year
+
+t is the number of years for which the bond is issued
+
+proceeds is the proceeds (cash) received from the issuance of a bond
+
+
+Calculations related to bonds:
+
+coupon (or periodic cash payment) = P $\times$  $\frac{c\%}{n}$ 
+
+proceeds = par value $\times (1+id\%)^{-n \times t}$ + coupon $\times \frac{1- (1+id\%)^{-n \times t}}{id\%}$
+
+total interest paid = c\% $\times$ par value $\times$ t
+
+interest expense each period = beginning balance bond * id\% 
+
+ending balance bond = beginning balance bond + interest expense each period - coupon
+
+total interest expense = par value + total interest paid - proceeds
+
+***
+
+**Question:**
+
+A company issues a bond for par value €`r format(par, big.mark=",")`, coupon rate `r format(coupon_rate, big.mark=",")`\% with an issue date 1 January 2018 and maturity date 31 December 2020 and semi-annual coupon payments. The annual effective interest rate is `r format(i, big.mark=",")`\% and the effective discount rate is `r format(id, big.mark=",")`\%.
+
+1. What are the bond proceeds?
+
+2. What is the interest expense for June 2018 (i.e., for the first six months)? 
+
+3. What is the ending balance of the bond at 31 December 2018?
+
+4. What is the total interest paid?
+
+5. What is the total interest expense/
+
+6. How is the issuance of the bond recorded?
+
+7. How is the interest expense of the bond recorded for the first six months?
+
+8. How is the payment of the bond (in 2020) recorded?
+
+***
+
+**Solution**
+
+1. `r format(par, big.mark=",")` $\times (1+`r id`\%)^{-`r n` \times `r t`}$ + coupon $\times \frac{1- (1+`r id`\%)^{-`r n` \times `r t`}}{`r id`\%}$ is approximately `r format(proc, big.mark=",")`
+
+2. What is the interest expense for June 2018 (i.e., for the first six months)? 
+
+`r format(proc, big.mark=",")` $\times$ `r id`\% = `r format(int_exp_1, big.mark=",")`
+
+3. What is the ending balance of the bond at 31 December 2018?
+
+Beginning balance + interest expense in June 2018 + interest expense in December 2018 - coupon June 2018 - coupon December 2018 = approximately 98,232
+
+4. What is the total interest paid?
+
+12,000
+
+5. What is the total interest expense?
+
+approximately 14,589
+
+6. How is the issuance of the bond recorded?
+
+Increase cash and increase bond-liability with `r format(proc, big.mark=",")`
+
+7. How is the interest expense of the bond recorded for the first six months?
+
+Increase Interest expense with `r format(int_exp_1, big.mark=",")`, decrease the cash with `r format(coupon, big.mark=",")` and increase the bond with `r format(int_exp_1-coupon, big.mark=",")`
+
+8. How is the payment of the bond (in 2020) recorded?
+
+Decrease cash and the bond with `r format(par, big.mark=",")`
