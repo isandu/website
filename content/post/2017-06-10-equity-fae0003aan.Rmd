@@ -53,7 +53,7 @@ Purchase of `r format(purch, big.mark=",")` treasury shares for $`r format(purch
 
 Payment of cash dividend of $`r format(payment_div , big.mark=",")`
 
-Distribution of `r share_div` share dividend 
+Distribution of `r share_div`\% share dividend 
 
 Use the same market value per share for all transactions.
 
