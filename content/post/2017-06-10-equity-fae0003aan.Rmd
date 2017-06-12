@@ -51,7 +51,7 @@ Issuance of `r format(issue, big.mark=",")` ordinary shares for a market value o
 
 Purchase of `r format(purch, big.mark=",")` treasury shares for $`r format(purch_ts, big.mark=",")`
 
-Payment of cash dividend of $`r format(payment_div , big.mark=",")`
+Declaration of cash dividend of $`r format(payment_div , big.mark=",")`
 
 Distribution of `r share_div`\% share dividend 
 
