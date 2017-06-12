@@ -32,7 +32,7 @@ No. Although the transition might involve an impact on sales this impact cannot 
 
 2. The gross margin would increases 
 
-No. The gross margin calculated as net income divided by sales would decrease under the subscription-model because the company would record an increase in cash and an increase in unearned revenue (liability) under the subscription-model. It is implicitly assumed that net income is lower than sales.
+No. The gross margin calculated as gross profit divided by sales would stay the same under the subscription-model because the company would record an increase in cash and an increase in unearned revenue (liability) under the subscription-model so there would be no change recorded in the sales and not change in the gross profit. 
 
 3. The debt ratio would increase (assume total liabilities lower than total assets)
 
