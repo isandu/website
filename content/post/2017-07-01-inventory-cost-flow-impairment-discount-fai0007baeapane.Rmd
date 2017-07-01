@@ -1,0 +1,175 @@
+---
+date: 2017-07-01T10:39:31+02:00
+draft: false
+title: inventory cost flow impairment discount fai0007baeapane
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+mar3units <- sample(90:110,1,replace=T) 
+mar3cpu <- sample(3:6,1,replace=T)
+mar10units <- sample(180:220,1,replace=T)
+mar10cpu <- round(runif(1,3, 6), digits =1)  #sample(3:6,1,replace=T)                
+usold <- sample(140:180,1,replace=T)
+revpersale <- sample(7:10,1,replace=T)
+mar27units <- sample(35:65,1,replace=T)
+mar27cpu <- sample(5:8,1,replace=T)
+
+# Question 1
+FIFOaccsol <- usold*revpersale-(mar3units*mar3cpu)-((usold-mar3units)*mar10cpu)
+LIFOaccsol <- usold*revpersale-(usold*mar10cpu)
+Changecash <- usold*revpersale-(mar3units*mar3cpu)
+
+#Question 2
+cogsfifowrong11 <- mar3cpu*mar3units+(usold-mar3units)*mar10cpu-50
+cogslifowrong11 <- usold*mar10cpu-20
+cogsavg <- (mar3units*mar3cpu+mar10units*mar10cpu)/(mar3units+mar10units)*usold
+einvfifowrong11 <- (mar10units-(usold-mar3units))*mar10cpu+60
+einvlifowrong11 <- mar3units*mar3cpu+(mar10units-usold)*mar10cpu+30
+einvavg <- (mar3units*mar3cpu+mar10units*mar10cpu)/(mar3units+mar10units)*(mar3units+mar10units-usold)
+
+#Question 3
+impairdmg <- mar3cpu*mar3units
+cogsfifo <- mar3cpu*mar3units+(usold-mar3units)*mar10cpu
+cogsfifowrong131 <- cogsfifo+50
+cogsfiforight13 <- cogsfifo+impairdmg
+cogsfifowrong132 <- cogsfifo+impairdmg+50
+
+#Question 4
+einvavg14 <- einvavg+mar27cpu*mar27units
+einvavg14wrong1 <- (mar3cpu*mar3units+mar10units*mar10cpu+mar27cpu*mar27units)/(mar3units+mar10units+mar27units)*(mar3units+mar10units+mar27units-usold)
+einvavg14wrong2 <- (mar10units-usold)*mar10cpu+mar3units*mar3cpu+mar27units*mar27cpu
+einvavg14wrong3 <- mar27cpu*mar27units
+
+```
+
+**Remember:**
+
+The cost flow has nothing to do with the flow of cash or the flow of the physical units.
+[InventoryFormulas](https://drive.google.com/file/d/0B5iOWuUx99FWdGQ2R2xYSkdhRFE/view?usp=sharing)
+
+***
+Gambit company purchases and sells rubber ducks. Gambit begins the accounting period with no beginning inventory. During the period Gambit purchases on account identical rubber ducks as follows:
+
+Date      | Units           | Cost per Unit
+-----     | -----           | -------------
+3 March   |  `r mar3units`  | &euro; `r mar3cpu`
+10 March  |  `r mar10units` | &euro; `r mar10cpu`
+  
+
+
+During the period of 20 March to 25 March Gambit sells for cash `r usold` ducks for &euro;`r revpersale` each. Gambit pays at the end of the month for the purchase made on the 3rd of March. Gambit uses a perpetual inventory system. Assume no taxes.
+
+
+**Question 1**
+Which of the following conclusions can be drawn about the net change in cash at Gambit:
+
+1.	There is a &euro; `r format (FIFOaccsol, big.mark=",")` net decrease in cash during March if the FIFO cost flow assumption is used
+
+2.	There is a &euro; `r format (LIFOaccsol, big.mark=",")` net decrease in cash during March if the LIFO cost flow assumption is used
+
+3.	There is a &euro; `r format (Changecash, big.mark=",")` net increase in cash during March no matter which cost flow assumption is used
+
+4.	Both Point 1 and Point 2 are correct 
+
+***
+
+**Solution:**
+Cash from sale of ducks (during 20 March and 25 March) minus cash payment for the March 3 purchase.
+
+&euro; `r format (Changecash, big.mark=",")`
+
+***
+
+**Question 2**
+Which of the following conclusions can be drawn about the cost of goods sold and the ending
+inventory at Gambit:
+
+1.	The cost of goods sold and the ending inventory under the FIFO cost flow assumption are &euro;`r format (cogsfifowrong11, big.mark=",")` and &euro; `r format (einvfifowrong11, big.mark=",")` respectively
+
+2.	The cost of goods sold and the ending inventory under the LIFO cost flow assumption are &euro;`r format (cogslifowrong11, big.mark=",")` and &euro;`r format (einvlifowrong11, big.mark=",")` respectively
+
+3.	The cost of goods sold and the ending inventory under the weighted average cost flow assumption
+are approximately &euro; `r round(cogsavg, digits=2)` and approximately &euro; `r round(einvavg, digits=2)` respectively
+
+4.	Both Point 1 and Point 3 are correct 
+
+***
+
+**Solution:**
+
+weighted average cost = $\frac{units 3 March}{total units} * price units 3 March + \frac{units 10 March}{total units} * price units 10 March$
+
+&euro; `r round(cogsavg, digits=2)` and  &euro; `r round(einvavg, digits=2)`
+
+***
+
+**Question 3**
+
+For only this question assume that Gambit receives a discount of 10% on the entire first order of
+`r mar3units` rubber ducks. Which of the following conclusions can be drawn about the cost of goods sold at
+Gambit if all the other conditions from the initial text of the problem remain the same?
+
+1.  The cost of goods sold under the weighted average cost flow assumption is the same if the
+discount is received compared to the situation where the discount is not be received
+
+2.	The cost of goods sold under LIFO cost flow assumption is the same if the discount is received
+compared to the situation where the discount is not be received
+
+3.	The cost of goods sold under FIFO cost flow assumption is lower if the discount is received
+compared to the situation where the discount is not be received
+
+4.	Both Point 2 and Point 3 are correct 
+
+***
+
+**Solution:**
+
+A discount reduces the cost of goods sold. The discount affects only the 3 March units so the cost of goods sold under FIFO is lower. The cost of goods sold under LIFO is not affected if all the units sold are from the March 10 batch.
+
+answer: point 4
+
+***
+
+**Question 4**
+
+For only this question assume that the `r mar3units` rubber ducks from the first purchase were stored in
+improper conditions and the rubber material deteriorated. The damaged rubber ducks cannot be sold and the total damage is estimated to be &euro;`r impairdmg`. The impairment of the inventory is recorded at the end of March. Which of the following conclusions can be drawn about the cost of goods sold at Gambit if all the other conditions from the initial text of the problem remain the same?
+
+1.  The total cost of goods sold for the month of March under the FIFO cost flow assumption is &euro; `r format (cogsfifowrong131, big.mark=",")`
+
+2.	The total cost of goods sold for the month of March under the FIFO cost flow assumption is
+&euro; `r format (cogsfiforight13, big.mark=",")`
+
+3.	The total cost of goods sold for the month of March under the FIFO cost flow assumption is
+&euro; `r format (cogsfifowrong132, big.mark=",")`
+
+4.	The total cost of goods sold for the month of March under the FIFO cost flow assumption is &euro; `r format (cogsfifo, big.mark=",")`
+
+***
+
+**Solution:**
+The cost flow assumption has nothing to do with the physical ducks that are being impaired. The impairment amount is added to the cost of goods sold under FIFO ;
+
+&euro; `r format (cogsfiforight13, big.mark=",")`
+
+***
+
+**Question 5**
+
+For only this question assume that there is an additional purchase of `r mar27units` ducks for &euro; `r round(mar27cpu, digits=2)` each on 27 March. Which of the following conclusions can be drawn about the ending inventory at Gambit if all the other conditions from the initial text of the problem remain the same?
+
+1.  The ending inventory under the weighted average cost flow assumption is approximately
+&euro; `r format (round(einvavg14,digits=2), big.mark=",")`
+
+2.	The ending inventory under the weighted average cost flow assumption is approximately &euro; `r format (round(einvavg14wrong1,digits=2), big.mark=",")`
+
+3.	The ending inventory under the weighted average cost flow assumption is approximately
+&euro; `r format (round(einvavg14wrong2,digits=2), big.mark=",")`
+
+4.	The ending inventory under the weighted average cost flow assumption is approximately &euro; `r format (round(einvavg14wrong3,digits=2), big.mark=",")`
+
+***
+
+**Solution**
+
+&euro; `r format (round(einvavg14,digits=2), big.mark=",")`
