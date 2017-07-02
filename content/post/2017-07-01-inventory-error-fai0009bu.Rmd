@@ -1,0 +1,36 @@
+---
+date: 2017-07-01T11:55:44+02:00
+draft: false
+title: inventory error fai0009bu
+---
+
+**Remember:**
+
+BIDE formula: Beginning inventory + Purchases - COGS = Ending inventory
+
+***
+  
+**Question**
+
+A dairy company overstated its ending inventory for the year ended December 31, 2015. Which
+of the following conclusions can be drawn for the year 2015:
+
+1.	There is no change in the inventory turnover and the gross profit margin is overstated.
+
+2.  The inventory resident period is overstated and the gross profit margin is understated.
+
+3.	The inventory turnover is understated and the gross profit margin is overstated.
+
+4.	The inventory resident period is understated and there is no change in the gross profit margin.
+
+***
+  
+**Solution:**
+
+BIDE formula: Beginning inventory + Purchases - COGS = Ending inventory (overstated) then Beginning inventory + Purchases - Ending inventory (overstated) = COGS (understated)
+
+Inventory turnover = COGS (understated) / average inventory (overstated): understated
+
+Gross profit = (Sales - COGS (understated)) / Sales: overstated
+
+Point 3.

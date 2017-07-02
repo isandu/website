@@ -1,0 +1,86 @@
+---
+date: 2017-07-01T12:46:14+02:00
+draft: false
+title: ppe purchases sales impairment fapi0007buas
+---
+
+**Remember**
+
+BIDE formula: Beginning balance + Increases - Decreases = Ending balance
+
+***
+
+Use the financial statements information and the accounts from [Onix](https://drive.google.com/file/d/0B5iOWuUx99FWalBsb2lqU3lNLVk/view?usp=sharing). 
+
+**Question**
+
+Which of the following shows a correct recording of the purchase of property, plant and equipment (net amount) in 2016?
+
+a) Increase the Property, plant and equipment account and the Accounts Payable account by &euro;100
+
+b) Increase the Property, plant and equipment account and the Accounts Payable account by &euro;143
+
+c)	Increase the Property, plant and equipment account and the Accounts Payable account by &euro;231
+
+d)	Increase the Property, plant and equipment account and the Accounts Payable account by &euro;65
+
+***
+  
+**Solution:**
+
+Beginning balance 1,900 + Purchases - Sales (Cash from sale of ppe 50 - Gain on sale of ppe 7 = sold ppe 43) - Depreciation, impairment 88 = Ending balance 2,000 
+
+Purchases = 2,000 + 88 + 43 - 1,900 = 231
+
+Point c)
+
+***
+
+**Question**
+
+Which of the following shows a correct recording of the impairment of property, plant and equipment in 2016.
+
+a) Increase the Impairment expense account and increase the Property, plant and equipment
+account by &euro;10
+
+b) Increase the Depreciation expense account and decrease the Property, plant and equipment
+account by &euro;10
+
+c) Decrease the Impairment expense account and increase the Accumulated depreciation and
+impairment of property, plant and equipment account by &euro;10
+
+d) Increase the Impairment expense account and increase the Accumulated depreciation and
+impairment of property, plant and equipment account by &euro;10
+
+***
+  
+**Solution:**
+
+Journal entry impairment: increase impairment expense ; increase accumulated impairment (or decrease ppe)
+
+Point d)
+
+***
+
+**Question**
+
+Which of the following shows a correct recording of the sale of property, plant and equipment for cash in 2016.
+
+a) Increase the Cash account by &euro;50, increase the Gain account by &euro;7 and decrease the Property,
+plant and equipment (net) account by &euro;43
+
+b) Increase the Cash account by &euro;57, increase the Gain account by &euro;7 and decrease the Property,
+plant and equipment (net) account by &euro;50
+
+c) Increase the Cash account by &euro;43, decrease the Gain account by &euro;7 and decrease the Property, plant and equipment (net) account by &euro;50.
+
+d) Increase the Cash account by &euro;50 and decrease the Property, plant and equipment (net) account
+by &euro;50
+
+***
+
+**Solution:**
+Journal entry sale of ppe: increase cash ; decrease ppe ; increase gain
+
+Point a)
+

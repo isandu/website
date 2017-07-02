@@ -1,0 +1,71 @@
+---
+date: 2017-07-02T13:50:23+02:00
+draft: false
+title: goodwill intangible assets fapi0009aap
+---
+
+```{r echo=FALSE, error=FALSE, results='hide'}
+
+purchprice <- 1000*round(runif(1,10, 20), digits =3) 
+acquintang <- 1000*round(runif(1,1, 4), digits =3) 
+netassettarget <- 1000*round(runif(1,4, 9), digits =3)
+targetintang <- 1000*round(runif(1,6, 12), digits =3)
+
+goodwill <- purchprice-netassettarget
+wronganswer <- goodwill+acquintang
+intangafter <- goodwill+acquintang+targetintang
+
+```
+
+**Remember:**
+
+Goodwill = Purchase price - Fair market value of net assets purchased
+
+Net assets = Assets - Liability or Net assets = Equity
+
+***
+
+Marriott International has completed in 2016 its \$`r format (round(purchprice, digits=0), big.mark=",")` million purchase of Starwood. With the addition of Starwood's portfolio the new Marriott has 1.1 million rooms in more than 110 countries, making Marriott the largest hotel company in the world. Before the merger Marriott reported intangible assets of \$`r format (round(acquintang, digits=0), big.mark=",")` million. Starwood's net assets fair value was an estimated \$`r format (round(netassettarget, digits=0), big.mark=",")` million before the merger, out of which \$`r format (round(targetintang, digits=0), big.mark=",")` million were intangible assets.
+
+**Question 1**
+
+What is the value of goodwill recorded by Marriott as a result of the merger with Starwood?
+(amounts in $millions)
+
+a) \$`r format (round(goodwill, digits=0), big.mark=",")`
+
+b) \$`r format (round(netassettarget, digits=0), big.mark=",")`
+
+c) \$`r format (round(wronganswer, digits=0), big.mark=",")`
+
+d) \$`r format (round(intangafter, digits=0), big.mark=",")`
+
+***
+
+**Solution:**
+
+Goodwill = Purchase price - fair market value of net assets
+
+\$`r format (round(goodwill, digits=0), big.mark=",")`
+
+***
+
+**Question 2**
+
+What is the total amount for intangibles recorded by Marriott at the end of 2016? (amounts in $millions)
+
+a) \$`r format (round(goodwill, digits=0), big.mark=",")`
+
+b) \$`r format (round(netassettarget, digits=0), big.mark=",")`
+
+c) \$`r format (round(wronganswer, digits=0), big.mark=",")`
+
+d) \$`r format (round(intangafter, digits=0), big.mark=",")`
+
+***
+
+**Solution:**
+
+Total intangibles = Intangibles Marriot + intangibles Starwood + Goodwill
+
+\$`r format (round(intangafter, digits=0), big.mark=",")`
