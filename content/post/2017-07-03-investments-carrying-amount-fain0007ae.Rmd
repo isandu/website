@@ -1,0 +1,29 @@
+---
+date: 2017-07-03T11:51:20+02:00
+draft: false
+title: investments carrying amount fain0007ae
+---
+
+**Remember**
+
+The carrying amount of investments in associates (accounted for under the equity method) increases with increases in the net assets of the associate (e.g., increases in net assets (net assets is another term for equity) of associates are increases in net income of associates, increases in other comprehensive income of associates) and decreases in the net assets of the associate (e.g., decreases in net assets of associates are decreases in net income of associates, decreases in other comprehensive income, dividends distributed by associates).
+
+***
+
+**Question **
+
+Which of the following situations leads to a positive increase in the carrying amount of investments in associates (accounted for under the equity method)?
+
+a) An increase in the other comprehensive income of associates (accounted for under the equity method)
+
+b) The receipt of dividends from associates (accounted for under the equity method)
+
+c) An increase in the loss recorded by associates (accounted for under the equity method)
+
+d) An increase in the fair market value of the shares held in associates (accounted for under the equity method)
+
+***
+
+**Solution**
+
+Answer: a)

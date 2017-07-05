@@ -1,0 +1,68 @@
+---
+date: 2017-07-03T11:23:31+02:00
+draft: false
+title: use financial statements investments equity fafs0008ae
+---
+
+
+Use the information from [AkzoNobel](https://drive.google.com/file/d/0B5iOWuUx99FWOURsWDhPMjFzQms/view?usp=sharing)
+
+**Question 1**
+
+Identify how much investments accounted for under the equity method and the fair value method does AkzoNobel hold in 2016. (amounts in &euro; million)
+
+a) 1,068
+
+b) 161
+
+c) 719
+
+d) 558
+
+
+**Solution:**
+
+Balance sheet: Investments in associates - equity method + Long-term investments at fair value 
+
+Answer: c)
+
+***
+
+**Question 2**
+
+Identify the cash dividends declared by AkzoNobel at the end of 2016. (amounts in &euro; million)
+
+a) 239
+
+b) 393
+
+c) 336
+
+d) 57
+
+**Solution:**
+
+Statement of changes in equity: cash dividends declared are 239. The 393 amount includes the share dividends.
+
+Answer: a)
+
+***
+
+**Question 3**
+
+Assuming that AkzoNobel records during 2017 only an income from associates of &euro;20 million and dividends from associates of &euro;10 million (assume no purchases or sales of investments in associates), what would be the ending balance of Investments in associates (accounted for under the equity method) at the end of 2017?
+
+a) 161
+
+b) 171
+
+c) 175
+
+d) 155
+
+**Solution:**
+
+Beginning balance investments in associates: 161 + 20 net income from associates - 10 dividends received from associates 
+
+Answer: b)
+

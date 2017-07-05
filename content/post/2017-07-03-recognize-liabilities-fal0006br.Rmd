@@ -1,0 +1,31 @@
+---
+date: 2017-07-03T12:24:35+02:00
+draft: false
+title: recognize liabilities fal0006br
+---
+
+**Remember**
+
+Unearned revenues are amounts received oin advance for services or goods that the company still needs to deliver.  
+
+***
+
+**Question **
+
+Bol.com sells gift cards that allow customers to purchase products at some future date. Based on historical data, bol.com can calculate a reliable estimate of the amount expected to be redeemed (customers redeem the gift cards in return for products) by customers in the future. In exchange for the cash received at the sale of the gift cards, bol.com will record:
+
+a) A contingent liability
+
+b) A provision for warranty repairs
+
+c) Unearned revenues
+
+d) Revenues
+
+***
+
+**Solution**
+
+Under the consolidated method the net income is divided by a bigger amount than under the equity method so the return-on-assets is lower under the consolidated method than under the equity method.
+
+Answer: c)

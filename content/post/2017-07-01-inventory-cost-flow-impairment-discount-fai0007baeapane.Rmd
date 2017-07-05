@@ -5,14 +5,14 @@ title: inventory cost flow impairment discount fai0007baeapane
 ---
 
 ```{r echo=FALSE, error=FALSE, results='hide'}
-mar3units <- sample(90:110,1,replace=T) 
-mar3cpu <- sample(3:6,1,replace=T)
-mar10units <- sample(180:220,1,replace=T)
-mar10cpu <- round(runif(1,3, 6), digits =1)  #sample(3:6,1,replace=T)                
-usold <- sample(140:180,1,replace=T)
-revpersale <- sample(7:10,1,replace=T)
-mar27units <- sample(35:65,1,replace=T)
-mar27cpu <- sample(5:8,1,replace=T)
+mar3units <- 97 #sample(90:110,1,replace=T) 
+mar3cpu <- 4  #sample(3:6,1,replace=T)
+mar10units <- 201 #sample(180:220,1,replace=T)
+mar10cpu <- 5.3 #round(runif(1,3, 6), digits =1)  #sample(3:6,1,replace=T)                
+usold <- 150 #sample(140:180,1,replace=T)
+revpersale <- 8 #sample(7:10,1,replace=T)
+mar27units <- 53 #sample(35:65,1,replace=T)
+mar27cpu <- 5 #sample(5:8,1,replace=T)
 
 # Question 1
 FIFOaccsol <- usold*revpersale-(mar3units*mar3cpu)-((usold-mar3units)*mar10cpu)
