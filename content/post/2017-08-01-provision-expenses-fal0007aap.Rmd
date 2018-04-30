@@ -1,0 +1,25 @@
+---
+date: 2017-08-01T16:07:43+02:00
+draft: false
+title: provision expenses fal0007aap
+---
+
+  **Remember:**
+ 
+Recording a provision leads to an increase in expenses (debit) and an increase in liablities (credit).
+
+***
+  
+**Question**
+
+In August 2016 Starbucks recalled 2,801,000 stainless steel straws citing concerns that it could cause mouth lacerations in young children. Assume that at the end of 2016 Starbucks can reliably estimate the amount that the customers will claim as refund but does not know the exact timing when customers will ask for their money back. What is the effect of the product recall recorded by Starbucks in the 2016 financial statements?
+
+1.  Decrease in net cash flow from financing activities
+2.  Decrease in debt-to-equity ratio 
+3.  Decrease in net cash flow from investing activities
+4.  Decrease in net income
+
+***
+  
+  **Solution:**
+  Point 4.
