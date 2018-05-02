@@ -25,11 +25,11 @@ Assume a cost of 44,000, residual value of 4,000 and useful life of 5. Then a ta
 
 | Year | Depreciation Rate | Depreciable amount (as cost-residual value) | Depreciation expense |
 |------|-------------------|---------------------------------------------|----------------------|
-| 1    | 0.2               | 20,000                                      | 8,000                |
-| 2    | 0.2               | 20,000                                      | 8,000                |
-| 3    | 0.2               | 20,000                                      | 8,000                |
-| 4    | 0.2               | 20,000                                      | 8,000                |
-| 5    | 0.2               | 20,000                                      | 8,000                |
+| 1    | 0.2               | 40,000                                      | 8,000                |
+| 2    | 0.2               | 40,000                                      | 8,000                |
+| 3    | 0.2               | 40,000                                      | 8,000                |
+| 4    | 0.2               | 40,000                                      | 8,000                |
+| 5    | 0.2               | 40,000                                      | 8,000                |
 
 This approach can be confusing if there are changes in the estimates of useful lives or residual values when textbooks indicate a new formula to calculate the depreciation expense: depreciation expense = **asset’s remaining depreciable book value** / useful life where the asset’s remaining depreciable book value is the carrying amount (which is cost - accumulated depreciation). So if the residual value changes to 2,000 (instead of the initial 4,000) at the beginning of year 3, then the new depreciation expense is the asset’s remaining depreciable book value (44,000 - 2x8,000 - 2,000 = 26,000) / useful life (3 years) = 8666.67. You would need to remember two formulas, one formula for the normal situation that uses **cost minus residual value** for the depreciable amount and one formula for the situation when you have changes in estimates of useful life and residual value that uses the **asset’s remaining depreciable book value minus residual value** for the depreciable amount. 
 
