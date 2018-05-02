@@ -6,10 +6,21 @@
     <description>Recent content on Accounting</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 30 Apr 2018 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 02 May 2018 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Another look at...depreciation through the straight line method</title>
+      <link>/2018/05/02/another-look-at-depreciation-through-the-straight-line-method/</link>
+      <pubDate>Wed, 02 May 2018 00:00:00 +0000</pubDate>
+      
+      <guid>/2018/05/02/another-look-at-depreciation-through-the-straight-line-method/</guid>
+      <description>The most important aspect about the straight-line method of depreciation is that an equal amount of depreciation expense is assigned to each depreciation period. When trying to find the depreciation you need to know the meaning of:
+CostUseful lifeResidual valueCarrying amount (Cost - Accumulated depreciation)In textbooks the straight-line depreciation method is explained using the cost, useful life and residual value:
+depreciation expense = \(\frac{Cost - Residual Value}{Useful Life}\)</description>
+    </item>
     
     <item>
       <title>use line items retained earnings fafs0010aap</title>

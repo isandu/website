@@ -1,0 +1,46 @@
+---
+title: Another look at...depreciation through the straight line method
+author: ''
+date: '2018-05-02'
+slug: another-look-at-depreciation-through-the-straight-line-method
+categories: []
+tags: []
+draft: false
+---
+
+The most important aspect about the straight-line method of depreciation is that **an equal amount of depreciation expense is assigned to each depreciation period**. When trying to find the depreciation you need to know the meaning of:
+
+- Cost
+- Useful life
+- Residual value
+- Carrying amount (Cost - Accumulated depreciation)
+
+In textbooks the straight-line depreciation method is explained using the cost, useful life and residual value: 
+
+depreciation expense  = $\frac{Cost - Residual Value}{Useful Life}$ 
+
+where $Cost - Residual Value$ is the depreciable amount.
+
+Assume a cost of 44,000, residual value of 4,000 and useful life of 5. Then a table detailing depreciation expense looks like: 
+
+| Year | Depreciation Rate | Depreciable amount (as cost-residual value) | Depreciation expense |
+|------|-------------------|---------------------------------------------|----------------------|
+| 1    | 0.2               | 20,000                                      | 8,000                |
+| 2    | 0.2               | 20,000                                      | 8,000                |
+| 3    | 0.2               | 20,000                                      | 8,000                |
+| 4    | 0.2               | 20,000                                      | 8,000                |
+| 5    | 0.2               | 20,000                                      | 8,000                |
+
+This approach can be confusing if there are changes in the estimates of useful lives or residual values when textbooks indicate a new formula to calculate the depreciation expense: depreciation expense = **asset’s remaining depreciable book value** / useful life where the asset’s remaining depreciable book value is the carrying amount (which is cost - accumulated depreciation). So if the residual value changes to 2,000 (instead of the initial 4,000) at the beginning of year 3, then the new depreciation expense is the asset’s remaining depreciable book value (44,000 - 2x8,000 - 2,000 = 26,000) / useful life (3 years) = 8666.67. You would need to remember two formulas, one formula for the normal situation that uses **cost minus residual value** for the depreciable amount and one formula for the situation when you have changes in estimates of useful life and residual value that uses the **asset’s remaining depreciable book value minus residual value** for the depreciable amount. 
+
+To have one method that works for every problem you can combine the two approaches from above into one method:
+
+| Year | Depreciation Rate | Depreciable amount (as carrying amount  minus residual value) | Depreciation expense                   |
+|------|-------------------|---------------------------------------------------------------|----------------------------------------|
+| 5    | 1/5               | 40,000 (from 44,000-4,000)                                    | 8,000                                  |
+| 4    | 1/4               | 32,000 (from 44,000-8,000-4,000)                              | 8,000                                  |
+| 3    | 1/3               | 26,000 (from 44,000-16,000-2,000)                             | 8,666.67 *)year of change in estimates |
+| 2    | 1/2               | 17,333.33 (from 44,000-24,666.67-2,000)                       | 8,666.67                               |
+| 1    | 1/1               | 8666.67 (from 44,000-33,333.33-2,000)                         | 8,666.67                               |
+
+The most important part of the straight-line method is that is should result in an equal amount of depreciation expense. The other items (like depreciable amount and rate) can be used in a flexible way, without sticking to one definition.
