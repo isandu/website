@@ -5,9 +5,9 @@ title: trading securities fain0002aap
 ---
 
 **Remember:**
-A company that invests in the shares of other companies (i.e., an investor) can use three accounting methods to record these investments: (1) **fair value** method (for Treasury Shares [e.g., treasury shares can be short-term investments in other companies, usually in small percentages] and Available-for-Sales securities [e.g., available-for-sales securities can be long-term investments in other companies, usually in small percentages]); (2) **equity method** (for investments in associates [e.g., when the investor has between 25% and 50% of the shares of the investee]); (3) **consolidation method** (for subsidiaries [e.g., when the investor has over 50% of the shares of the investee]).
+A company that invests in the shares of other companies (i.e., an investor) can use three accounting methods to record these investments: (1) **fair value** method (for Trading securities [e.g., trading securities can be short-term investments in other companies, usually in small percentages] and Available-for-Sales securities [e.g., available-for-sales securities can be long-term investments in other companies, usually in small percentages]); (2) **equity method** (for investments in associates [e.g., when the investor has between 25% and 50% of the shares of the investee]); (3) **consolidation method** (for subsidiaries [e.g., when the investor has over 50% of the shares of the investee]).
 
-Changes in fair values only matter under the fair value method. Changes in the fair value of treasury shares create an **Unrealized Gain (or Loss)** that affects directly the income statement. Changes in the fair value of available-for-sales securities create an **Unrealized Gain (or Loss)** that is recorded directly in the "Accumulated Other Comprehensive Income OCI - Reserves" section of the Equity.
+Changes in fair values only matter under the fair value method. Changes in the fair value of trading securities create an **Unrealized Gain (or Loss)** that affects directly the income statement. Changes in the fair value of available-for-sales securities create an **Unrealized Gain (or Loss)** that is recorded directly in the "Accumulated Other Comprehensive Income OCI - Reserves" section of the Equity.
 
 ***
 
